@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sKRACHIE Project</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="octicons/octicons.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="overide.css">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="processing.min.js"></script>
+    <script type="text/javascript" src="check.js"></script>
+
+  </head>
+  <body>
+    <nav class="nav navbar-inverse navbar-fixed-top" role="navigation" style="padding-top:10px;">
+        <a class="navbar-brand" href="index.html" ><span class="glyphicon glyphicon-qrcode"></span> <font size="4px">s</font>KRATCHIE</a>
+        <div class="pull-right" style="padding-right:20px;">
+          <ul class="nav nav-pills" >
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" >
+                <span class="glyphicon glyphicon-download-alt"></span> Download <span class="caret"></span>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">.zip file</a></li>
+                  <li><a href="#">.tar.gz file</a></li>
+                </ul>
+              </a>
+            </li>
+            <li ><a href="#" ><span class="octicon octicon-repo-forked"></span> Fork on GitHub</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="page-header" style="margin-top:60px; padding:0;">
+    <center>
+      <h1><small>Click and sKRATCH</small></h1>
+    </center>
+    </div>
+    <canvas id = "processing-skratchie" data-processing-sources="skratchie.pde"></canvas>
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input id='guess_input' type="text" class="form-control" placeholder="Code">
+      </div>
+      <button type="button" class="btn btn-default" onclick="check()">Submit</button>
+    </form>
+   
+    <div id="remark-wrong" class="alert alert-danger" role="alert">
+        
+        <strong>Wrong!</strong> Check and try submitting again.
+
+    </div>
+       
+    <div id="remark-success" class="alert alert-success" role="alert">
+        
+        <strong>Well Done!</strong> You sKRATCHed it!!.
+
+    </div>
+
+
+    <footer>
+        Is maintained by <a href="https://github.com/vineetkumardoshi" target="_blank">vineetkumardoshi</a>.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+
+body{
+	background-color: #dfdfdf;
+	height: 100%;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #dfdfdf;
+}
+
+canvas{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+
+form{
+  position: fixed;
+  top: 60%;
+  left: 40%;
+  	
+}
+
+#remark-success{
+  position: fixed;
+  top: 70%;
+  left:50%;
+  margin-left: -120px;
+  display:none;
+
+
+}
+#remark-wrong{
+  position: fixed;
+  top: 70%;
+  left:50%;
+  margin-left: -140px;
+  display:none;
+
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
