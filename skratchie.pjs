@@ -1,0 +1,2 @@
+var number=$p.parseInt($p.random(1,1E5)),variable_possible=$p.random(1,20);function setup(){$p.size(400,200);$p.background(4293914607);$p.fill(255);var a=$p.loadFont("courier");$p.textFont(a,$p.random(100,120));$p.noStroke();$p.frameRate(30)}$p.setup=setup;function draw(){$p.fill(4293914607);$p.text(number,50-variable_possible,120-variable_possible);$p.__mousePressed&&($p.stroke($p.random(0,255),$p.random(0,255),$p.random(0,255)),$p.strokeWeight(10),$p.line($p.mouseX,$p.mouseY,0,100))}$p.draw=draw;
+function getNumber(){return number}$p.getNumber=getNumber;
