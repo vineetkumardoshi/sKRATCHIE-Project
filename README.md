@@ -3,6 +3,11 @@
 
 An alternate Captcha like code generator, which ask the user to scratch and see the numbers.
 
+![Alt tag](https://raw.githubusercontent.com/vineetkumardoshi/sKRATCHIE-Project/master/screenshot.png)
+<hr>
+### DEMO
+sKRATCH here, https://vineetkumardoshi.github.io/sKRATCHIE-Project/index.html
+
 <hr>
 
 ### How to use?
