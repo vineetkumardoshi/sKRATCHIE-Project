@@ -21,14 +21,14 @@ void setup()
 
   fill(#efefef);  
   text(number,W/variable_possible,H/variable_possible); 
-  if (mouseIsDragged){
+
+
+}
+void mouseDragged(){
 	  stroke(random(0,255),random(0,255),random(0,255));
 	  strokeWeight(5);
 	  line(mouseX,mouseY,0,H/2);
-  } 
-
 }
-
 var getNumber(){
 	return number;
 }
