@@ -2,6 +2,7 @@
 body{
 	background-color: #dfdfdf;
 	height: 100%;
+  overflow-y:scroll;
 }
 
 .navbar-inverse .navbar-brand{
@@ -9,22 +10,26 @@ body{
 }
 
 canvas{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -200px;
-  margin-left: -200px;
+  
+  height: 40%;
+  width: 60%;
+
+  position: absolute;
+  left:20%;
+  right:20%;
 }
 
 form{
-  position: fixed;
-  top: 60%;
+  position: absolute;
+  float:left;
+  top: 70%;
   left: 40%;
-  	
+  width: 20%;
+  min-width: 100px;
 }
 
 #remark-success{
-  position: fixed;
+  position: absolute;
   top: 70%;
   left:50%;
   margin-left: -120px;
@@ -33,7 +38,7 @@ form{
 
 }
 #remark-wrong{
-  position: fixed;
+  position: absolute;
   top: 70%;
   left:50%;
   margin-left: -140px;
@@ -45,3 +50,13 @@ footer {
   bottom: 0;
   padding: 10px;
 }
+/*
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+     
+    canvas{
+      height: 100px;
+      width:2 * height;
+
+    }
+    } */
