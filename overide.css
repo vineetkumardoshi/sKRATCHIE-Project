@@ -30,7 +30,7 @@ form{
 
 #remark-success{
   position: absolute;
-  top: 70%;
+  top: 75%;
   left:50%;
   margin-left: -120px;
   display:none;
@@ -39,7 +39,7 @@ form{
 }
 #remark-wrong{
   position: absolute;
-  top: 70%;
+  top: 75%;
   left:50%;
   margin-left: -140px;
   display:none;
