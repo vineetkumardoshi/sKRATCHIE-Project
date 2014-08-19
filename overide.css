@@ -11,8 +11,8 @@ body{
 
 canvas{
   
-  height: 40%;
-  width: 60%;
+  height: 200px;
+  width: 400px;
 
   position: absolute;
   left:20%;
