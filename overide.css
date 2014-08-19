@@ -22,7 +22,7 @@ canvas{
 form{
   position: absolute;
   float:left;
-  bottom: 200px;
+  bottom: 180px;
   left: 40%;
   width: 20%;
   min-width: 100px;
@@ -30,7 +30,7 @@ form{
 
 #remark-success{
   position: absolute;
-  bottom: 180px;
+  bottom: 100px;
   left:52%;
   margin-left: -120px;
   display:none;
@@ -39,7 +39,7 @@ form{
 }
 #remark-wrong{
   position: absolute;
-  bottom: 180px;
+  bottom: 100px;
   left:52%;
   margin-left: -140px;
   display:none;
