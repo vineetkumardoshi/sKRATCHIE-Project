@@ -15,8 +15,8 @@ canvas{
   width: 400px;
 
   position: absolute;
-  left:30%;
-  right:20%;
+  margin-left: 35% ;
+  
 }
 
 form{
