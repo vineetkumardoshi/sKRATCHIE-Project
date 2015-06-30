@@ -15,6 +15,13 @@ $(document).ready(function() {
     		guess = pjs.getNumber()
     		clearInterval(tId);}
   		},500);
+  //Submit on Key Press
+  $("input").keypress(function(event) {
+    if (event.which == 13) {
+        event.preventDefault();
+        $("button").click();
+    }
+});
 });
 
 //function to check if the user input is equal to the 'guess' variable.
@@ -37,10 +44,4 @@ function check(){
        }
 }
 
-//Submit on Key Press
-$("input").keypress(function(event) {
-    if (event.which == 13) {
-        event.preventDefault();
-        $("button").click();
-    }
-});
+
